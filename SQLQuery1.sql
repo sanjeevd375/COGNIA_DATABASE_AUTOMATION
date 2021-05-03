@@ -16,4 +16,10 @@ CREATE TABLE [dbo].[Table_2](
 ) ON [PRIMARY]
 GO
 
-
+CREATE TABLE [dbo].[Table_3](
+	[name] [nchar](10) NULL,
+	[address] [nvarchar](50) NULL,
+	[first_name] [nvarchar](50) NULL,
+	[last_name] [nvarchar](50) NULL
+) ON [PRIMARY]
+GO
